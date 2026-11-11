@@ -1,0 +1,55 @@
+📋 Lista de Comandos e Limpeza Recorrente
+
+1. Limpar Cache de Pacotes do Python (`pip`)
+
+
+> Onde fazer: Prompt de Comando pip cache purge
+
+> O que faz: Remove o histórico de downloads de bibliotecas que o Python guarda em segundo plano.
+
+
+2. Limpar Arquivos Temporários do Windows %temp%
+
+> Onde fazer: Atalho `Windows + R` ➔ Digitar `%temp%` e premir `Enter`
+
+> O que faz: Abre a pasta de ficheiros temporários do sistema e das aplicações.
+
+1. Seleciona todos os ficheiros: `Ctrl + A`
+
+2. Elimina: `Shift + Delete` (ou `Delete`)
+
+3. Se o Windows avisar que algum ficheiro está em uso, marca a caixa "Fazer isto para todos os itens atuais" e clica em Ignorar.
+
+
+
+
+3. Limpar Cache do Google Chrome
+
+> Onde fazer: No próprio navegador Google Chrome
+
+> O que faz: Remove imagens, vídeos e dados temporários de sites armazenados no disco `C:`.
+
+
+
+1. Abre o Chrome e prime: Ctrl + Shift + Delete
+
+2. No intervalo de tempo, seleciona: Todo o período
+
+3. Marca a opção: Imagens e ficheiros em cache
+
+4. Clica em Limpar dados
+
+
+
+
+4. Limpar Cache de Execução do Streamlit (Opcional)
+
+
+> Onde fazer: Prompt de Comando streamlit cache clear
+
+> O que faz: Limpa o cache de dados guardados na memória temporária da tua aplicação Python.
+
+
+
+
+

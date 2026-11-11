@@ -445,3 +445,11 @@ ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conex�
 2026-11-11 09:01:45 [INFO] - [admin] - Usuário efetuou login no sistema.
 2026-11-11 09:19:12 [INFO] - [admin] - Usuário efetuou login no sistema.
 2026-11-11 09:32:20 [INFO] - [SISTEMA] - Nota criada no Projeto 'Treze Tilias' com notificação para: []
+2026-11-11 10:57:27 [ERROR] - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\igor.correa\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\igor.correa\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
